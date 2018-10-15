@@ -1,0 +1,118 @@
+.heading {
+	text-align:center;
+	color:#a300ff;
+	text-transform:uppercase;
+}
+	
+.no-display {
+	display : none;
+} 
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], input[type=submit],  input[type=number],  input[type=date] ,.results, input[type=reset]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px auto 10px auto;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;	
+}
+
+button {
+    background-color: #1d7dd6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 23%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+	display:block;
+}
+
+.container {
+    padding: 16px;
+	margin:0 auto 0 auto;
+}
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4);  /*Black w/ opacity */
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #7ae7ea;
+    margin: 5% 20% 10% 20%; /* 5% from the top, 15% from the bottom and centered */
+    border: 10px outset #888;
+    width: auto; /* Could be more or less, depending on screen size */
+	height:auto;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000111;
+    font-size: 35px;
+    font-weight: bold;
+	margin: 5% 20%;
+	padding-top:60px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+ 
+.results {
+	margin:16px;
+	background-color:#bcb8c9;
+	word-wrap: break-word;
+	width:70%;
+}
+input[type=submit] {
+	background-color:#38bd38; 
+	width: 50%;
+}
+
+input[type=reset] {
+	background-color:#f5bfff;
+	width: 50%;
+}

@@ -1,0 +1,30 @@
+<html>
+<body>
+<script>
+
+
+var findCommonElements= function(arr1,arr2) {
+    var resArr = [];
+    for (var i = 0; i <=arr1.length - 1; i++) {
+
+
+        for (var j = 0; j <= arr2.length - 1; j++) {
+            if (arr1[j] === arr2[i]) {
+               resArr.push(arr1[i]);
+            }
+        }
+
+        
+
+
+    }
+	resArr.toString();
+    return resArr;
+}
+var arr1=prompt("enter array1").split(",");
+var arr2=prompt("enter array2").split(",");
+
+alert(findCommonElements( arr1,arr2));
+</script>
+</body>
+</html>

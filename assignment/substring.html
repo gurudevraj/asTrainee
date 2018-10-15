@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Click here</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = prompt("enter a string");
+    for(var i=0;i<str.length;i++){
+		for(var j=1;j<=str.length;j++){
+			var res = str.substring(i, j);//you can use slice also
+			document.write(res+" ");
+			}
+			}
+}
+</script>
+
+</body>
+</html>

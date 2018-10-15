@@ -1,0 +1,33 @@
+<html>
+<body>
+<button onclick="oddEvenFinder()">Click here</button>
+<script>
+var number, i=0;
+
+function oddEvenFinder(){
+number=parseInt(prompt("enter a number "));
+if(isNaN(number)) {
+    alert("invalid input");
+	oddEvenFinder();
+}
+else if(typeof(number) == "number") {
+    while(i <= number) {
+	    if(i % 2 === 0) {
+		    document.write(i+" is a Even number<br/>");
+		}
+		else {
+		    document.write(i+" is a Odd number<br/>"); 
+		}
+		i++;
+	}
+}
+else {
+    alert("invalid input");
+	oddEvenFinder();
+}
+}
+
+</script>
+
+</body>
+</html>

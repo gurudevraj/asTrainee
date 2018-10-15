@@ -1,0 +1,22 @@
+<html>
+<body>
+<script>
+var num=prompt("enter a set of numbers with different sign").split(",");
+
+var i, j=0;
+
+for(i = 0; i < num.length; i++) {
+    if(parseInt(num[i]) > 0) {
+	    j++;
+	}
+}
+if(j % 2 === 0 || j === 0) {
+    alert("the multiplication sign is positive");
+}
+else {
+    alert("the multiplication sign is negative");
+}
+
+</script>
+</body>
+</html>
