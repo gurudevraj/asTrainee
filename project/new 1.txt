@@ -1,0 +1,14 @@
+color code6
+rigt 5
+here's 4
+alt 3
+h3 2
+h4 1
+border shadow
+reusability
+
+
+layout 
+offset
+boolean flag
+shortends

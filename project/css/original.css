@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.main--block {
+	box-shadow: 0 0 10px #c0c0c0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	width: 100%;
+	height: 85%;
+	border: 1px solid #c0c0c0;
+}
+
+.block--left {
+	padding-top: 10%;
+	float: left;
+	width: 50%;
+}
+
+.block--right {
+	padding-top: 10%;
+	width: 50%;
+	float: right;
+	height: 100%;
+	background-image: url("../images/envelope_pros_slide0.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 100% 40%;
+}
+
+.block--footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #f6153d;
+	height: 16%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.block--footer__block {
+	box-shadow: 0 0 5px #c0c0c0;
+	margin-top: 3px;
+	padding-top:7px;
+	border-radius: 5px;
+	height: 100%;
+	float: left;
+	width: 20%;
+	border: 1px solid #c0c0c0;
+}
+
+h3 {
+	color: #7e748b;
+}
+
+.block--footer__block__link {
+	text-decoration: none;
+	color: #7e748b;
+}
+
+.block--left__elem__img--beautiful-picks {
+	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.block--left__elem__img--view-their-picks {
+	display: block;
+	margin-left: 20%;
+	width: 20%;
+	margin-top: 20px;
+}
+
+.jq__block--right__elem__img--pros {
+	position: fixed;
+	top: 0;
+	margin-top: 10%;
+}
+
+.block--left__elem__p {
+	font-size: 25px;
+	color: gray;
+	padding-left: 20%;
+}

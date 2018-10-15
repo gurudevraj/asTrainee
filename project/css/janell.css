@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.table {
+	height: 85%;
+}
+
+.body {
+	background-image: url("../images/janell.png");
+	background-repeat: no-repeat;
+	background-position: 75% 20%;
+	background-size: 20%;
+}
+
+.main--block {
+	box-shadow: -1px -3px 5px #c0c0c0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	width: 100%;
+	height: 85%;
+	border: 1px solid #c0c0c0;
+}
+
+.block--footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #f6153d;
+	height: 15%;
+	border: 1px solid #c0c0c0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.block--footer__block--janell,
+.block--footer__block--tippi,
+.block--footer__block--ian,
+.block--footer__block--allen,
+.block--footer__block--ric {
+	box-shadow: -1px -1px 2px #c0c0c0;
+	border-radius: 5px;
+	display: table;
+	float: left;
+	padding-top: 15px;
+	width: 20%;
+	` padding: 50px;
+	border: 1px solid #c0c0c0;
+	height: 100%;
+}
+
+h3 {
+	color: #7e748b;
+}
+
+.block--footer__block--janell {
+	background-color: #f6153d;
+	color: #ffffff;
+}
+
+.block--footer__block--janell__elem_h3 {
+	color: #ffffff;
+}
+
+.table__elem__block {
+	box-shadow: -1px -3px 5px #c0c0c0;
+	border-radius: 10px;
+	margin-top: 10%;
+	margin-left: 10%;
+	padding-left: 15px;
+	width: 100%;
+}
+
+.table__row2__td {
+	width: 50%;
+}
+
+.table__row2__td2,
+.table__row2__td3 {
+	width: 25%;
+}
+
+.jq_table__row2__td__elem--img1,
+.jq_table__row2__td__elem--img2,
+.jq_table__row2__td__elem--img3 {
+	float: right;
+}
+
+.jq_table__row2__td__elem--img1 {
+	width: 50%;
+}
+
+.jq_table__row2__td__elem--img2 {
+	width: 60%;
+}
+
+.jq_table__row2__td__elem--img3 {
+	width: 70%;
+	float: left;
+}
+
+.block--footer__block__link {
+	text-decoration: none;
+	color: #7e748b;
+}
+
+.table__elem__block__elem_img--holiday {
+	width: 75%;
+}

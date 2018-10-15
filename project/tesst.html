@@ -1,0 +1,20 @@
+<html>
+<body>
+
+<script>
+
+var array = [2,3,6,6,8,9,10,10,10,12,12];
+for(var i=0;i<array.length;i++){
+    if(array[i]==array[i+1]){
+        array.splice(i,1);
+         if(array[i]==array[i+1]){
+            array.splice(i,1);}
+    }
+}
+
+for(i=0;i<array.length;i++){
+    document.write(array[i]);
+}
+}
+</script>
+</body>
